@@ -64,6 +64,6 @@ public class Activity2 extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        Toast.makeText(this, "OnDestroy", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "OnRestart", Toast.LENGTH_SHORT).show();
     }
 }
